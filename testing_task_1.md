@@ -24,7 +24,6 @@ class CardGame
   # Code should be indented
   if card1.value > card2.value
   # This method only has access to the variables card1 and card2, it will not know what card is
-  # It should return the value and maybe not the hole object, so card1.value and on line 30 card2.value
     return card
   else
     return card2
