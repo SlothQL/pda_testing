@@ -37,7 +37,7 @@ end
 def self.cards_total(cards)
   # Total needs to be defined
   total
-  # The for loop requires a do at the end of line 40
+  # The for loop requires a do at the end of line 41
   for card in cards 
     total += card.value
     # To get the end-result back, the return statement needs to be outside of the for loop. Also we need a whitespace at the end of our string otherwise the total will be printed in one word with of.
